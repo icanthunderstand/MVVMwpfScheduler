@@ -444,6 +444,8 @@ namespace advancedWpfProject.MVVM.ViewModel
             _loginFormVM.FailLogin = false;
             _inputFormVM.Initialize();
             _registerFormVM.Initialize();
+            _loginFormVM.Initialize();
+            
             CurrentView = vm;
         }
 

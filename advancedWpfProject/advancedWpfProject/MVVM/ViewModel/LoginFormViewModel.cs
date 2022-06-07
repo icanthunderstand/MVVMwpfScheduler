@@ -65,7 +65,12 @@ namespace advancedWpfProject.MVVM.ViewModel
             });
         }
 
-
+        public void Initialize()
+        {
+            LoginId = string.Empty;
+            LoginPassword = string.Empty;
+            FailLogin = false;
+        }
 
     }
 }

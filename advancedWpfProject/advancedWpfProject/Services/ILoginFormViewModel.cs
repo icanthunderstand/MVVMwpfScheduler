@@ -16,6 +16,7 @@ namespace advancedWpfProject.Services
         string LoginId { get; set; }
         string LoginPassword { get; set; }
         bool FailLogin { get; set; }
+        void Initialize();
 
     }
 }
