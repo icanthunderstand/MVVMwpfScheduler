@@ -1,0 +1,32 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:viewModel="clr-namespace:advancedWpfProject.MVVM.ViewModel"
+                    xmlns:view="clr-namespace:advancedWpfProject.MVVM.View">
+
+    <DataTemplate DataType="{x:Type viewModel:DaySchedulerViewModel}">
+        <view:DaySchedulerView/>
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type viewModel:WeekSchedulerViewModel}">
+        <view:WeekSchedulerView/>
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type viewModel:MonthSchedulerViewModel}">
+        <view:MonthSchedulerView/>
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type viewModel:InputFormViewModel}">
+        <view:InputFormView/>
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type viewModel:LoginFormViewModel}">
+        <view:LoginFormView/>
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type viewModel:RegisterFormViewModel}">
+        <view:RegisterFormView/>
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type viewModel:ModifyEventFormViewModel}">
+        <view:ModifyEventFormView/>
+    </DataTemplate>
+
+</ResourceDictionary>

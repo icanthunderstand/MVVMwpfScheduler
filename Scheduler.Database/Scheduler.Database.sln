@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32428.217
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Scheduler.Database", "Scheduler.Database\Scheduler.Database.sqlproj", "{2E68B50A-7F81-4535-B091-0918341ED401}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E68B50A-7F81-4535-B091-0918341ED401}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E68B50A-7F81-4535-B091-0918341ED401}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E68B50A-7F81-4535-B091-0918341ED401}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{2E68B50A-7F81-4535-B091-0918341ED401}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E68B50A-7F81-4535-B091-0918341ED401}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E68B50A-7F81-4535-B091-0918341ED401}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F3682E2C-0E8A-4409-9BF1-9FD0B8FBB89D}
+	EndGlobalSection
+EndGlobal
