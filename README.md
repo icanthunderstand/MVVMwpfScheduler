@@ -99,7 +99,7 @@ Microsoft.Extensions.Hosting 추가
   Model과 View는 서로를 알수 없어야하며, ViewModel과 View도 Binding을 통해 연결해야한다.   
   View와 Model(ViewModel)간에는 어떠한 명시적 참조가 있어선 안된다.   
 
-  View에 ViewModel에 선언하는 등의 패턴에 위반하는 코드들은 전면 수정하였다.   
+  View에 ViewModel을 선언하는 등의 패턴에 위반하는 코드들은 전면 수정하였다.   
 
 
 3. Dependency Injection   
