@@ -107,7 +107,7 @@ Microsoft.Extensions.Hosting 추가
 
   MainVM에서 많은 변수들을 관리하고, 많은 일들을 처리한다.   
   종속성 문제를 해결하기위해 Dependency Injection을 사용하였다.   
-  MainVM의 책임을 줄이기위하여 각 서비스별로 핵심 기능을 interface로 추출해 추상화 하였다.   
+  책임을 줄이기위하여 각 서비스별로 핵심 기능을 interface로 추출해 추상화 하였다.   
 
 
 ## 마치며
