@@ -97,8 +97,12 @@ ORM을 위해 Dapper Library를 사용 하였다.
 
 Microsoft.Extensions.Hosting 추가
 
-![DependencyInjection](https://user-images.githubusercontent.com/92092084/172597819-6ec6fda4-20bb-4a35-b07d-dd5f89c241bb.png)
+![DependencyInjection](https://user-images.githubusercontent.com/92092084/172597819-6ec6fda4-20bb-4a35-b07d-dd5f89c241bb.png)    
 
+Dapper라이브러리를 이용한 DB와의 연동 로직을 Repository클래스로 감싸고   
+CRUD기능을 인터페이스로 추출하여 MainViewModel에 Inject하였다.   
+
+![inject](https://user-images.githubusercontent.com/92092084/173572018-9458541c-5d7e-4ebe-9c80-70b9c1cdb900.png)
 
 ## 프로젝트에서 신경쓴점
 
