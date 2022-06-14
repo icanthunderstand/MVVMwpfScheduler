@@ -44,6 +44,21 @@ https://youtu.be/rRa4gNm6LII
 
 * Event를 DATABASE에 CRUD
 * LOGIN기능/DATABASE CRUD(Update Delete 미구현)
+## MainViewModel   
+
+MainWindow의 ContentControl과  MainViewModel의 CurrentView를 바인딩하여 화면을 변경한다   
+![mainviewmodel](https://user-images.githubusercontent.com/92092084/173569991-668fe099-5e73-4508-b281-9542e2391b67.png)   
+
+각 ViewModel들은 해당하는 View와 Datatemplate으로 연결되어 보여진다  
+
+![datatemplate](https://user-images.githubusercontent.com/92092084/173569986-97de50f5-1b35-4e90-a22e-375f88c272cb.png)    
+
+
+버튼 클릭등의 이벤트는 비하인드 코드를 이용하지 않고   
+ICommand인터페이스를 구현한 RelayCommand 클래스를 이용하여 Command바인딩을 적용하였다    
+
+
+![command](https://user-images.githubusercontent.com/92092084/173570704-41d2b40e-09da-4785-b92c-507d8fd3013d.png)
 
 ## DataBase
 
