@@ -35,7 +35,7 @@ nuget패키지로 추가하였음
 https://youtu.be/rRa4gNm6LII   
 
 ## 기능
-
+![schedulerexe](https://user-images.githubusercontent.com/92092084/173572311-28603f7a-34b3-4bf8-8264-5adbd89aca72.png)
 * Event를 자동정렬하여 Month,week,day별로 보여줌
 * Event신규작성 추가
 * 기존Event 수정,삭제 (우클릭)
